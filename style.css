@@ -1,0 +1,155 @@
+@import url("fontawesome-all.min.css");
+
+.jumbotron {
+  background-image: url(#);
+  background-size: cover;
+}
+.img-header {
+  max-width: 100%;
+  height: auto;
+}
+.txt-header {
+  text-align: left;
+}
+/* icons */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+ul.icons li .icon:before {
+  font-size: 1.5em;
+}
+/*fa icon*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: darkgray;
+}
+.embed-h {
+  width: 800px;
+  height: 530px;
+}
+/*mm*/
+.txt-mm {
+  text-align: right;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* buat responsive layout */
+@media only screen and (max-width: 767px) {
+  ul.icons {
+    text-align: center;
+  }
+  .txt-header {
+    text-align: center;
+  }
+  .img-header {
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+  }
+  .subhead {
+    text-align: center;
+  }
+  .txt-mm {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .embed-h {
+    max-width: 100%;
+    max-height: 340px;
+  }
+  .embed-y {
+    padding-left: 0rem;
+    max-width: 100%;
+    max-height: 3600px;
+  }
+}
+.embed-y {
+  padding-left: 0;
+  max-width: 100%;
+  max-height: 3600px;
+}
+.justify {
+  text-align: justify;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+.video1 {
+  padding-left: 4rem;
+}
+@media only screen and (max-width: 767px) {
+  .video1 {
+    padding-left: 0rem;
+  }
+  .embed-y {
+    padding-left: 0rem;
+    max-width: 100%;
+    max-height: 400px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .video1 {
+    padding-left: 1rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .txt-my {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 995px) {
+  .txt-my {
+    text-align: end;
+  }
+}
+.videoyt {
+  max-width: 100%;
+  height: auto;
+}
+/*
+@media only screen and (max-width: 1200px) {
+  .img-header {
+    min-width: 27%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+    .img-header {
+      min-width: 45%;
+      height: auto;
+    }
+*/
+/*animasi*/
+.elementToFadeInAndOut {
+  opacity: 1;
+  animation: fade 2s linear;
+}
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
