@@ -26,7 +26,7 @@
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container shadow-lg p-3 mb-5 bg-body rounded">
+      <div class="container shadow-lg p-3 mb-3 bg-body rounded">
         <a class="navbar-brand text-secondary" href="#">
           <img src="image/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top" /> | hilmy farras</a
         >
@@ -210,7 +210,7 @@
     </section>
     <!--Proyek-->
     <section id="proyek" class="container shadow p-3 mb-5 bg-body rounded">
-      <div class="row justify-content-center elementToFadeInAndOut">
+      <div class="row justify-content-center elementToFadeInAndOut" style="padding-top: 7rem">
         <!--narasi-->
         <div class="col-3 col-md-2 subhead">
           <h1 class="fs-1">
@@ -227,55 +227,61 @@
         </div>
       </div>
       <!--row 1-->
-      <div class="row text-center">
-        <div class="col-md-8 col-sm-8">
-          <iframe
-            src="https://www.marzipano.net/demos/sample-tour/"
-            class="text-center embed-y"
-            frameborder="0"
-            scrolling="no"
-            style="height: 100%; width: 90%"
-            allowfullscreen
-          ></iframe>
-          <br />
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-sm-9">
+          <div class="embed-responsive embed-responsiv-16by9">
+            <iframe
+              src="https://www.marzipano.net/demos/sample-tour/"
+              class="container position-relative w-100 h-100"
+              frameborder="0"
+              scrolling="no"
+              style="min-height: 420px"
+              allowfullscreen
+            ></iframe>
+            <br /><br />
+          </div>
         </div>
-        <div class="w-100 d-sm d-md-none"></div>
-        <div class="col-md-4 col-sm-8">
+        <div class="w-100 d-md d-lg-none"></div>
+        <div class="col-lg-3 col-md-8">
           <br />
-          <h5 class="txt-mm"><i>Virtual Tour</i> 3D Konsep Alun-alun Manunggal Daya oleh Hilmy</h5>
+          <h5 class="txt-my"><i>Virtual Tour</i> 3D Konsep Alun-alun Manunggal Daya oleh Hilmy</h5>
           <br />
-          <p class="txt-mm">
+          <p class="txt-my">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nostrum eos deleniti voluptatem quas saepe a reprehenderit
             corrupti minima eum mollitia consequatur fuga ut vel, nisi reiciendis perspiciatis hic ea inventore similique? Laborum eaque
             aliquid debitis dolore alias fugit! Cumque consequatur quidem expedita ratione debitis rem?
           </p>
-          <p class="txt-mm">
+          <p class="txt-my">
             <i>Software: Sketchup, Enscape, Marzipano</i>
           </p>
         </div>
       </div>
       <br />
       <div class="row"><hr class="solid container" /></div>
+      <br />
       <!--row 2-->
       <div class="row text-center justify-content-center">
-        <div class="col-md-8 col-sm-8 video1">
-          <video
-            id="my-video"
-            class="video-js"
-            controls
-            preload="auto"
-            width="720"
-            height="480"
-            poster="image/pov 3 pertigaan streetcarsubs.png"
-            data-setup="{}"
-          >
-            <source src="image/Neighborhood Street Render-andro.mp4" type="video/mp4" />
+        <div class="col-md-8 col-sm-8">
+          <div class="video1 w-100 h-100">
+            <video
+              id="my-video"
+              class="video-js"
+              controls
+              preload="auto"
+              width="900"
+              height="600"
+              poster="image/pov 3 pertigaan streetcarsubs.png"
+              data-setup="{}"
+            >
+              <source src="image/Neighborhood Street Render-andro.mp4" type="video/mp4" />
 
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-            </p>
-          </video>
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+          </div>
+
           <br />
         </div>
         <div class="w-100 d-md d-lg-none"></div>
@@ -296,9 +302,11 @@
       <br />
       <div class="row"><hr class="solid container" /></div>
       <!--row 3-->
-      <div class="row justify-content-between">
-        <div class="col-lg-6 col-md-6 col-sm-8">
-          <div class="embed-responsive-item">
+      <div class="row justify-content-center">
+        <br />
+        <div class="col-lg-8 col-md-8">
+          <br />
+          <div class="embed-responsive">
             <iframe
               class="embed-responsive-item embed-h"
               type="application/pdf"
@@ -307,40 +315,36 @@
             ></iframe>
           </div>
         </div>
-        <div class="w-100 d-sm d-md-none"></div>
-        <div class="col-lg-4 col-md-5 col-sm-8">
+        <div class="w-100 d-md d-lg-none"></div>
+        <div class="col-lg-4 col-md-8">
           <br />
-          <h5 class="txt-mm">Poster Analisis Koridor Jalan Ahmad Yani, Malioboro</h5>
+          <h5 class="txt-my"><br />Poster Analisis Koridor Jalan Ahmad Yani, Malioboro</h5>
           <br />
-          <p class="txt-mm">
+          <p class="txt-my">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nostrum eos deleniti voluptatem quas saepe a reprehenderit
             corrupti minima eum mollitia consequatur fuga ut vel, nisi reiciendis perspiciatis hic ea inventore similique? Laborum eaque
             aliquid debitis dolore alias fugit! Cumque consequatur quidem expedita ratione debitis rem?
           </p>
-          <p class="txt-mm">
+          <p class="txt-my">
             <i>Software: ArcGIS, Sketchup, Photoshop</i>
           </p>
         </div>
       </div>
+      <br />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffd700"
+          fill-opacity="0.4"
+          d="M0,288L0,160L80,160L80,160L160,160L160,192L240,192L240,192L320,192L320,32L400,32L400,256L480,256L480,192L560,192L560,128L640,128L640,256L720,256L720,192L800,192L800,288L880,288L880,128L960,128L960,64L1040,64L1040,288L1120,288L1120,32L1200,32L1200,256L1280,256L1280,160L1360,160L1360,128L1440,128L1440,320L1360,320L1360,320L1280,320L1280,320L1200,320L1200,320L1120,320L1120,320L1040,320L1040,320L960,320L960,320L880,320L880,320L800,320L800,320L720,320L720,320L640,320L640,320L560,320L560,320L480,320L480,320L400,320L400,320L320,320L320,320L240,320L240,320L160,320L160,320L80,320L80,320L0,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!--kartu-->
     <section class="container">
-      <div class="row justify-content-between">
-        <div class="col-4">
-          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 28rem">
-            <img src="image/area tunjungan_refined.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">proyek 2</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nam porro veritatis iure sapiente minus sunt maiores
-                est voluptates?
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="row justify-content-center">
         <div class="w-100 d-md d-lg-none"></div>
-        <div class="col-3">
-          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 22rem">
+        <div class="col-lg-4 col-md-10 text-center">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: auto">
             <img src="image/cirebon_jalanankotax.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">proyek 1</h5>
@@ -352,11 +356,11 @@
           </div>
         </div>
         <div class="w-100 d-md d-lg-none"></div>
-        <div class="col-4">
-          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 28rem">
+        <div class="col-lg-6 col-md-10 text-center">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: auto">
             <img src="image/intensitas pemanfaatan lahan_.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">proyek 3</h5>
+              <h5 class="card-title">proyek 2</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nam porro veritatis iure sapiente minus sunt maiores
                 est voluptates?
@@ -366,6 +370,7 @@
         </div>
       </div>
     </section>
+    <br /><br />
     <section id="video" class="container shadow p-3 mb-5 bg-body rounded">
       <div class="row justify-content-center elementToFadeInAndOut">
         <!--narasi-->
@@ -374,7 +379,7 @@
             <small class="text-muted">video</small>
           </h1>
         </div>
-        <br />
+
         <div class="w-100 d-sm d-md-none"></div>
         <div class="col-9">
           <br />
@@ -383,25 +388,29 @@
           <br /><br />
         </div>
       </div>
-      <div class="row embed-responsive-item container text-center">
-        <iframe
-          class="embed-responsive-item"
-          width="720"
-          height="480"
-          src="https://www.youtube.com/embed/MusfsBkCJHw"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          ><br /></iframe
-        ><br />
+      <div class="row container justify-content-center">
+        <div class="col-12 text-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="container position-relative w-100 h-100"
+              src="https://www.youtube.com/embed/MusfsBkCJHw"
+              title="YouTube video player"
+              frameborder="0"
+              style="min-height: 480px; min-width: auto"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              ><br /></iframe
+            ><br />
+          </div>
+        </div>
       </div>
       <div class="row">
         <br />
         <h5 class="text-center text-muted">
           <br />
-          video lainnya di <a href="https://www.youtube.com/channel/UCJMh2Ij-HSLzibks7Jn5XJw"><i>channel</i> Youtube ku</a>.
+          video lainnya di <a href="https://www.youtube.com/channel/UCJMh2Ij-HSLzibks7Jn5XJw">di sini</a>.
         </h5>
+        <br />
       </div>
     </section>
     <!--script-->
