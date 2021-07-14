@@ -70,7 +70,16 @@ ul.icons li .icon:before {
   .txt-mm {
     text-align: center;
   }
+  .vidtub {
+    min-height: 240px;
+  }
 }
+@media only screen and (min-width: 768px) {
+  .vidtub {
+    min-height: 480px;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   .embed-h {
     max-width: 100%;
@@ -149,4 +158,8 @@ video {
   50% {
     opacity: 1;
   }
+}
+.bg-peta {
+  background-image: url(https://previews.123rf.com/images/netsign33/netsign331704/netsign33170400064/75687099-minsk-belarus-vector-map-monochrome-artprint-outline-version-for-infographic-background-black-street.jpg);
+  background-blend-mode: soft-light;
 }
