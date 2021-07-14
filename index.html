@@ -295,14 +295,12 @@
       <!--row 2-->
       <div class="row text-center justify-content-center" data-aos="fade-right" data-aos-duration="3000">
         <div class="col-lg-9 col-md-9">
-          <div class="video1 w-100 h-100">
+          <div class="video1 position-relative">
             <video
               id="my-video"
-              class="video-js"
+              class="video-js video1 position-relative container"
               controls
               preload="auto"
-              width="900"
-              height="600"
               poster="image/thumbvideo_neighborhood.png"
               data-setup="{}"
             >
@@ -380,7 +378,7 @@
         <div class="w-100 d-md d-lg-none"></div>
         <div class="col-lg-4 col-md-10 text-center" data-aos="zoom-out-right" data-aos-duration="2000">
           <div class="card shadow p-3 mb-5 bg-body rounded" style="width: auto">
-            <img src="image/cirebon_jalanankota.png" class="card-img-top" alt="..." />
+            <img src="image/jalanan_cirebon.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">proyek 1</h5>
               <p class="card-text">
@@ -499,10 +497,15 @@
 
     <!--script-->
 
+    <!--videojs-->
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+
     <!--aos-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        disable: "mobile",
+      });
     </script>
 
     <!--bundle-->
@@ -511,8 +514,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
-    <!--videojs-->
-    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
   </body>
 </html>

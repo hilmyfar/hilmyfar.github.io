@@ -1,3 +1,8 @@
+html,
+body {
+  width: 100vw;
+}
+
 .jumbotron {
   background-image: url(#);
   background-size: cover;
@@ -107,6 +112,8 @@ video {
 @media only screen and (max-width: 767px) {
   .video1 {
     padding-left: 0rem;
+    max-height: 240px;
+    max-width: auto;
   }
   .embed-y {
     padding-left: 0rem;
@@ -117,6 +124,15 @@ video {
 @media only screen and (max-width: 1300px) {
   .video1 {
     padding-left: 1rem;
+    max-height: 480px;
+    max-width: auto;
+  }
+}
+@media only screen and (min-width: 1310px) {
+  .video1 {
+    padding-left: 1rem;
+    max-height: 600px;
+    max-width: auto;
   }
 }
 @media only screen and (max-width: 990px) {
