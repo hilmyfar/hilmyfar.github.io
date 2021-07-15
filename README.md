@@ -1,5 +1,7 @@
-#  ̶p̶o̶r̶t̶o̶f̶o̶l̶i̶o̶ personal
-laman  p̶o̶r̶t̶o̶f̶o̶l̶i̶o̶ personal pertama yang dibuat dari nol dengan bantuan bootstrap. 
+# ̶p̶o̶r̶t̶o̶f̶o̶l̶i̶o̶ personal
+
+laman <s>peortofolio</s> personal pertama yang dibuat dari nol dengan bantuan bootstrap.
+
 <i>responsive-static-webpage</i>
 
 https://hilmyfar.github.io/
