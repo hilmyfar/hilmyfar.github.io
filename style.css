@@ -132,7 +132,7 @@ video {
 }
 @media only screen and (max-width: 990px) {
   .txt-my {
-    text-align: center;
+    text-align: justify;
   }
 }
 @media only screen and (min-width: 995px) {
@@ -231,5 +231,14 @@ video {
   }
   100% {
     top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pd {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .pdv {
+    padding-right: 0rem;
   }
 }
