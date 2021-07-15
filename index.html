@@ -58,6 +58,14 @@
     </nav>
     <!--Akhir Navbar-->
 
+    <!--loading screen-->
+    <div class="wrap">
+      <div class="loading">
+        <div class="bounceball"></div>
+        <div class="text">now loading</div>
+      </div>
+    </div>
+
     <!--Jumbotron-->
     <section class="jumbotron container shadow p-3 mb-5 bg-body rounded bg-jumbo" data-aos="flip-left" data-aos-duration="500">
       <div class="jumbo-content">
@@ -514,7 +522,11 @@
     </section>
 
     <!--script-->
-
+    <script>
+      $(window).on("load", function () {
+        $(".wrap").fadeOut("slow");
+      });
+    </script>
     <!--videojs
     <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
     -->
