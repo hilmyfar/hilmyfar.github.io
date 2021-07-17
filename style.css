@@ -245,3 +245,6 @@ video {
 .poll {
   min-height: 300px;
 }
+.no-italics {
+  font-style: normal;
+}
