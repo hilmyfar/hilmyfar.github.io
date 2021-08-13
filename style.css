@@ -160,7 +160,10 @@ video {
   max-width: 100%;
   min-height: 550px;
 }
-
+.bgpersonal {
+  background-color: rgba(255, 168, 243, 0.993);
+  max-width: 100%;
+}
 .bg-jumbo {
   position: relative;
 }
